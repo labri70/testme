@@ -1,0 +1,130 @@
+{
+  "global": {
+    "gray": {
+      "100": {
+        "value": "#f7f7f7",
+        "type": "color"
+      },
+      "200": {
+        "value": "#f0f0f0",
+        "type": "color"
+      },
+      "300": {
+        "value": "#e8e8e8",
+        "type": "color"
+      },
+      "400": {
+        "value": "#e1e1e1",
+        "type": "color"
+      },
+      "500": {
+        "value": "#d9d9d9",
+        "type": "color"
+      },
+      "600": {
+        "value": "#aeaeae",
+        "type": "color"
+      },
+      "700": {
+        "value": "#828282",
+        "type": "color"
+      },
+      "800": {
+        "value": "#575757",
+        "type": "color"
+      },
+      "900": {
+        "value": "#2b2b2b",
+        "type": "color"
+      }
+    },
+    "Blue": {
+      "100": {
+        "value": "#daedfe",
+        "type": "color"
+      },
+      "200": {
+        "value": "#b5dafd",
+        "type": "color"
+      },
+      "300": {
+        "value": "#91c8fb",
+        "type": "color"
+      },
+      "400": {
+        "value": "#6cb6fa",
+        "type": "color"
+      },
+      "500": {
+        "value": "#47a4f9",
+        "type": "color"
+      },
+      "600": {
+        "value": "#3983c7",
+        "type": "color"
+      },
+      "700": {
+        "value": "#2b6295",
+        "type": "color"
+      },
+      "800": {
+        "value": "#1c4164",
+        "type": "color"
+      },
+      "900": {
+        "value": "#0e2132",
+        "type": "color"
+      }
+    },
+    "Foundation": {
+      "Blue": {
+        "Light": {
+          "value": "#edf6fe",
+          "type": "color"
+        },
+        "Light :hover": {
+          "value": "#e3f1fe",
+          "type": "color"
+        },
+        "Light :active": {
+          "value": "#c6e3fd",
+          "type": "color"
+        },
+        "Normal": {
+          "value": "#47a4f9",
+          "type": "color"
+        },
+        "Normal :hover": {
+          "value": "#4094e0",
+          "type": "color"
+        },
+        "Normal :active": {
+          "value": "#3983c7",
+          "type": "color"
+        },
+        "Dark": {
+          "value": "#357bbb",
+          "type": "color"
+        },
+        "Dark :hover": {
+          "value": "#2b6295",
+          "type": "color"
+        },
+        "Dark :active": {
+          "value": "#204a70",
+          "type": "color"
+        },
+        "Darker": {
+          "value": "#193957",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
