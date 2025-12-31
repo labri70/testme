@@ -470,11 +470,22 @@
       }
     }
   },
+  "Brand/Mode 1": {
+    "primary": {
+      "value": "{blue.500}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{orange.500}",
+      "type": "color"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "global",
-      "Colors/Mode 1"
+      "Colors/Mode 1",
+      "Brand/Mode 1"
     ]
   }
 }
