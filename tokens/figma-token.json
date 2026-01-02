@@ -471,7 +471,7 @@
   },
   "Brand/Mode 1": {
     "primary": {
-      "value": "{gray.500}",
+      "value": "{blue.500}",
       "type": "color"
     },
     "secondary": {
