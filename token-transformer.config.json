@@ -1,0 +1,15 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "sd": {
+      "transforms": ["name/cti/kebab"],
+      "buildPath": "tokens/sd-input/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json"
+        }
+      ]
+    }
+  }
+}

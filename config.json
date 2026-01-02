@@ -1,0 +1,47 @@
+{
+  "source": ["tokens/sd-input/*.json"],
+  "log": {
+    "warnings": false
+  },
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "css/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true 
+          }
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "js/",
+      "files": [
+        {
+          "destination": "tokens.js",
+          "format": "javascript/es6",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}

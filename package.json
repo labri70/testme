@@ -1,0 +1,23 @@
+{
+  "name": "testme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transform": "token-transformer tokens/figma-token.json tokens/sd-input/tokens.json",
+    "fix-tokens": "node fix-tokens.js",
+    "build": "style-dictionary build --config config.json",
+    "build:scss": "sass --watch scss/main.scss css/main.css",
+    "build:tokens": "npm run transform && npm run fix-tokens && npm run build",
+    "build:all": "npm run build:tokens && npm run build:scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.64.2",
+    "style-dictionary": "^4.4.0",
+    "token-transformer": "^0.0.33"
+  }
+}

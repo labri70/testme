@@ -1,5 +1,4 @@
-{
-  "global": {},
+{  
   "Colors/Mode 1": {
     "blue": {
       "50": {
@@ -472,7 +471,7 @@
   },
   "Brand/Mode 1": {
     "primary": {
-      "value": "{blue.500}",
+      "value": "{gray.500}",
       "type": "color"
     },
     "secondary": {
